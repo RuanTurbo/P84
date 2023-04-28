@@ -1,7 +1,8 @@
 canvas = document.getElementById('myCanvas'); 
 ctx = canvas.getContext("2d");
 nasaMarsImagesArray = ["nasa_image_1.jpg","nasa_image_2.jpeg", "nasa_image_3.jpg","nasa_image_4.jpg"];
-
+randomNumber = Math.floor(Math.random() * 4);
+console.log(randomNumber);
 roverWidth = 100; 
 roverHeight = 90;
 backgroundImage = "mars.jpg";
